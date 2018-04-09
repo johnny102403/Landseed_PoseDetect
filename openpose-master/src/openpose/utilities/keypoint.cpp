@@ -503,9 +503,7 @@ namespace op
 											knee_distance_vec += "膝蓋請打開一點~";
 										}
 									}
-
-									///////////////////////////////////////////
-
+																	
 									//RShouder
 									if (posePoint_X[1] > 0 && posePoint_Y[1] > 0 && posePoint_X[5] > 0 && posePoint_Y[5] > 0 && posePoint_X[6] > 0 && posePoint_Y[6] > 0) {
 										double num = countAngle(posePoint_X[1], posePoint_Y[1], posePoint_X[5], posePoint_Y[5], posePoint_X[6], posePoint_Y[6]);
